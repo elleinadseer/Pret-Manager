@@ -30,14 +30,14 @@ flex-direction: column;
     padding: 20px 0px;
 }
 
-.name {
+#name {
     font-size: 25px;
     font-weight: 600;
     font-family: arial;
     color: rgb(135,37,52);
 }
 
-.number {
+#number {
     font-size: 28px;
     font-weight: 600;
     font-family: arial;
