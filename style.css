@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(135,37,52);
+}
+
+.title {
+    margin: 30px;
+    display:flex;
+align-items: center;
+flex-direction: column;
+}
+
+.title .text {
+    color: rgb(252 242 242);
+    font-size: 40px;
+    font-family: arial;
+}
+
+.tileContainer {
+    gap: 5%;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+}
+
+.tile {
+    background-color: rgba(247,247,247,255);
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: arial;
+    color: rgb(135,37,52);
+}
+
+.number {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: arial;
+    color:rgb(57, 57, 57);
+}
