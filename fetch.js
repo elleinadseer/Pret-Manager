@@ -1,4 +1,4 @@
-        function fetchCoffeeLogs() {
+ /*       function fetchCoffeeLogs() {
             fetch('/get-coffee-logs')
                 .then(response => response.json())
                 .then(data => {
@@ -55,4 +55,4 @@ app.get('/get-coffee-logs', (req, res) => {
             res.json(result);
         }
     });
-});
+}); */
